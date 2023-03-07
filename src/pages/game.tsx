@@ -102,7 +102,9 @@ export default function Game() {
           <div className="m-auto">
             <h2 className="my-0">Challanges</h2>
 
-            <h5 className="pb-5">{maxPoints.current} Points Reached</h5>
+            <h5 className="pb-5">
+              {maxPoints.current} Points Reached · {gameData.questionsAnswered} Questions Answered
+            </h5>
 
             <div className="grid grid-rows-6 md:grid-rows-3 grid-flow-col gap-5 text-left">
               {checkpoints.map((checkpoint, i) => (
@@ -117,7 +119,7 @@ export default function Game() {
               ))}
             </div>
 
-            <div className="pt-6">
+            <div className="pt-5">
               <Button
                 onClick={() => {
                   console.log("Started New Game");
