@@ -92,12 +92,12 @@ let data: Question[] = [
   },
   {
     question: "What is the smallest planet in our solar system?",
-    possibleAnswers: ["Mercury", "Venus", "Earth", "Mars"],
+    possibleAnswers: ["Venus", "Mercury", "Earth", "Mars"],
     correctAnswer: "Mercury",
   },
   {
     question: "Who painted the Mona Lisa?",
-    possibleAnswers: ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+    possibleAnswers: ["Michelangelo", "Raphael", "Leonardo da Vinci", "Donatello"],
     correctAnswer: "Leonardo da Vinci",
   },
   {
@@ -107,12 +107,12 @@ let data: Question[] = [
   },
   {
     question: 'Who wrote the novel "To Kill a Mockingbird"?',
-    possibleAnswers: ["Harper Lee", "Toni Morrison", "Maya Angelou", "Alice Walker"],
+    possibleAnswers: ["Toni Morrison", "Maya Angelou", "Alice Walker", "Harper Lee"],
     correctAnswer: "Harper Lee",
   },
   {
     question: "What is the highest mountain in Africa?",
-    possibleAnswers: ["Mount Kilimanjaro", "Mount Kenya", "Mount Elgon", "Mount Meru"],
+    possibleAnswers: ["Mount Kenya", "Mount Elgon", "Mount Kilimanjaro", "Mount Meru"],
     correctAnswer: "Mount Kilimanjaro",
   },
   {
@@ -122,27 +122,27 @@ let data: Question[] = [
   },
   {
     question: "What is the largest organ in the human body?",
-    possibleAnswers: ["Liver", "Brain", "Skin", "Heart"],
+    possibleAnswers: ["Brain", "Liver", "Skin", "Heart"],
     correctAnswer: "Skin",
   },
   {
     question: "Which country is home to the Great Barrier Reef?",
-    possibleAnswers: ["Australia", "Brazil", "South Africa", "Indonesia"],
+    possibleAnswers: ["Brazil", "South Africa", "Indonesia", "Australia"],
     correctAnswer: "Australia",
   },
   {
     question: "What is the name of the famous scientist who developed the theory of relativity?",
-    possibleAnswers: ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Stephen Hawking"],
+    possibleAnswers: ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Stephen Hawking"],
     correctAnswer: "Albert Einstein",
   },
   {
     question: "Which country won the 2018 FIFA World Cup?",
-    possibleAnswers: ["France", "Brazil", "Germany", "Spain"],
+    possibleAnswers: ["Brazil", "France", "Germany", "Spain"],
     correctAnswer: "France",
   },
   {
     question: "What is the rarest blood type?",
-    possibleAnswers: ["AB-", "B+", "A-", "O+"],
+    possibleAnswers: ["B+", "AB-", "A-", "O+"],
     correctAnswer: "AB-",
   },
   {
@@ -152,7 +152,7 @@ let data: Question[] = [
   },
   {
     question: "Which is the only continent that lies in all four hemispheres?",
-    possibleAnswers: ["Africa", "Antarctica", "Asia", "Europe"],
+    possibleAnswers: ["Antarctica", "Asia", "Europe", "Africa"],
     correctAnswer: "Africa",
   },
   {
@@ -162,12 +162,12 @@ let data: Question[] = [
   },
   {
     question: "What is the longest river in Europe?",
-    possibleAnswers: ["Volga", "Danube", "Elbe", "Rhine"],
+    possibleAnswers: ["Danube", "Volga", "Elbe", "Rhine"],
     correctAnswer: "Volga",
   },
   {
     question: "What is the capital of Uzbekistan?",
-    possibleAnswers: ["Tashkent", "Samarkand", "Bukhara", "Andijan"],
+    possibleAnswers: ["Samarkand", "Tashkent", "Bukhara", "Andijan"],
     correctAnswer: "Tashkent",
   },
   {
@@ -177,27 +177,27 @@ let data: Question[] = [
   },
   {
     question: 'Who wrote the novel "War and Peace"?',
-    possibleAnswers: ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Mikhail Bulgakov"],
+    possibleAnswers: ["Fyodor Dostoevsky", "Leo Tolstoy", "Anton Chekhov", "Mikhail Bulgakov"],
     correctAnswer: "Leo Tolstoy",
   },
   {
     question: "Who is the first woman to win a Nobel Prize?",
-    possibleAnswers: ["Marie Curie", "Rosalind Franklin", "Barbara McClintock", "Dorothy Hodgkin"],
+    possibleAnswers: ["Rosalind Franklin", "Barbara McClintock", "Dorothy Hodgkin", "Marie Curie"],
     correctAnswer: "Marie Curie",
   },
   {
     question: "What is the most abundant gas in Earth's atmosphere?",
-    possibleAnswers: ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"],
+    possibleAnswers: ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"],
     correctAnswer: "Nitrogen",
   },
   {
     question: "What is the currency of Brazil?",
-    possibleAnswers: ["Real", "Peso", "Dollar", "Euro"],
+    possibleAnswers: ["Peso", "Dollar", "Euro", "Real"],
     correctAnswer: "Real",
   },
   {
     question: "What is the capital of France?",
-    possibleAnswers: ["Paris", "London", "Berlin", "Madrid"],
+    possibleAnswers: ["London", "Paris", "Berlin", "Madrid"],
     correctAnswer: "Paris",
   },
   {
@@ -207,19 +207,29 @@ let data: Question[] = [
   },
   {
     question: "What is the largest country in the world by land area?",
-    possibleAnswers: ["Russia", "Canada", "China", "United States"],
+    possibleAnswers: ["Canada", "China", "Russia", "United States"],
     correctAnswer: "Russia",
   },
   {
     question: "What is the name of the largest ocean in the world?",
-    possibleAnswers: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    possibleAnswers: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
     correctAnswer: "Pacific Ocean",
   },
   {
     question:
       "What is the name of the iconic structure in Paris that is a popular tourist attraction?",
-    possibleAnswers: ["Eiffel Tower", "Big Ben", "Statue of Liberty", "Golden Gate Bridge"],
+    possibleAnswers: ["Big Ben", "Statue of Liberty", "Eiffel Tower", "Golden Gate Bridge"],
     correctAnswer: "Eiffel Tower",
+  },
+  {
+    question: "What is the tallest mammal?",
+    possibleAnswers: ["Giraffe", "Elephant", "Hippopotamus", "Rhinoceros"],
+    correctAnswer: "Giraffe",
+  },
+  {
+    question: "What is the capital of Iceland?",
+    possibleAnswers: ["Oslo", "Stockholm", "Reykjavik", "Copenhagen"],
+    correctAnswer: "Reykjavik",
   },
 ];
 
